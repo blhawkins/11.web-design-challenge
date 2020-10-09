@@ -10,16 +10,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <meta charset = 'UTF-8'>
 
-    <link rel="icon" href="assets/logo.png">
+    <link rel="icon" href="../assets/logo.png">
         <!--https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website-->
 
     <title>Latitude</title>
 
     <style>
-        #main_content{
-            background-color:salmon;
-            color: red
-        }
         #buffer_row{
             height: 25px;
         }
@@ -30,9 +26,9 @@
             color:#0aaf8e;
             font-weight:bold 
         }
-        .jumbotron h3{
-            color:#0aaf8e;
-            font-weight:bold 
+        #visualizations{
+            padding: 5px;
+            height: 175pt;
         }
     </style>
 </head>
@@ -40,7 +36,7 @@
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="assets/logo.png" width="100" height="100" alt="" loading="lazy" class="rounded">
+            <img src="../assets/logo.png" width="100" height="100" alt="" loading="lazy" class="rounded">
                 <h3>Latitude</h3>
           </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,23 +73,32 @@
         <div class = 'row' id = 'buffer_row'></div>
         <div class = 'row no-gutters'>
             <div class = 'col-md-1'></div>
-            <div class = 'col-md-5'>
+            <div class = 'col-md-4'>
                 <div class="jumbotron">
-                    <h1 class="display-4">Summary: Latitude vs. X</h1>
+                    <h1 class="display-4">Latitude vs. X</h1>
+                    <p class="lead">Welcome to Latitude!</p>
                     <hr class="my-4">
-                    <p>Welcome to Latitude!</p>
-                    <p>We are a data visualization </p>
-                    <img id = 'visualization' src = 'Visualizations/latitude_vs_temperature_ratios.png'>
+                    <p>We are a data visualization team based in Overland Park, Kansas! </p>
+                    <p>For our inaugural project, we analyzed the effect of latitude on various weather phenomena.
+                        <br>In order to complete this analysis, we began by utilizing the CitiPy library to create a random list of over 500 cities from around the world.
+                        <br>Next, we used the OpenWeatherMap API to obtain weather reports for each of the cities.
+                        <br>Finally, we used the MatPlotLib library to observe latitudinal trends related to each city's weather conditions.
+                    </p>
+                    <a href = 'max_temperature.html'> <img src = '../Visualizations/latitude_vs_temperature_ratios.png'> </a>
                 </div>
             </div>
             <div class = 'col-md-1'></div>
-            <div class = 'col-md-4'></div>
+            <div class = 'col-md-5'>
                 <div class="jumbotron">
-                        <h3 class="display-4">Visualizations</h3>
+                        <h1 class="display-4">Visualizations</h1>
                         <hr class="my-4">
-                        <img id = 'visualization' src = 'Visualizations/latitude_vs_temperature_ratios.png'>
-                    </div>
-            <div class = 'col-md-1'></div>
+                            <a href = 'max_temperature.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_temperature_ratios.png'></a>
+                            <a href = 'humidity.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_humidity_ratios.png'></a>
+                            <a href = 'cloudiness.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_cloudiness_ratios.png'></a>
+                            <a href = 'wind_speed.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_wind_speed_ratios.png'></a>
+                </div>
+            </div>
+            <div class = 'col-md-0'></div>
         </div>
 
 
