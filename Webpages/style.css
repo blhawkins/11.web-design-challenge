@@ -13,6 +13,10 @@
     font-weight:bold;
     text-align: center;
 }
+.jumbotron h3{
+    color:#0aaf8e;
+    font-weight:bold;
+}
 #visualizations{
     padding: 15px;
     width: 100%;
@@ -31,4 +35,12 @@
 #header_row{
     background-color: #0aaf8e;
     text-align: left;
+}
+#selected_visualization{
+    border: 3px solid #0aaf8e;
+    padding: 5px;
+    width: 100%;
+}
+#visualization_analysis{
+    font-size: 15pt;
 }
