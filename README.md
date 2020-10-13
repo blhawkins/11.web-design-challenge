@@ -9,6 +9,7 @@ University of Kansas Data Analytics Bootcamp Homework Assignment 11
     wind_speed.html
     cloudiness.html
     humidity.html
+    style.css
     convert.ipynb
 # Tools Used:
     HTML
