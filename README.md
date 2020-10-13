@@ -18,3 +18,10 @@ University of Kansas Data Analytics Bootcamp Homework Assignment 11
     Jupyter Notebook
     Pandas
 # Description:
+    The purpose of this repository is to store and host an HTML website displaying results obtained in a previous project (blhawkins/6.pythonAPIchallenge). The website is composed of seven webpages, cooresponding to the seven HTML files located in the Webpages folder.
+
+A. index.html
+    1. This serves as the homepage of the site and provides a summary of the project
+
+B. comparison.html
+    1. This displays all of the visualizations to allow users to visually compare them.
