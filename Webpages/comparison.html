@@ -26,9 +26,14 @@
             color:#0aaf8e;
             font-weight:bold 
         }
+        .jumbotron h2{
+            color:#0aaf8e;
+            font-weight:bold;
+            text-align: center;
+        }
         #visualizations{
-            padding: 5px;
-            height: 300pt;
+            padding: 15px;
+            width: 100%;
         }
     </style>
 </head>
@@ -77,11 +82,41 @@
             <div class = 'col-md-10'>
                 <div class="jumbotron">
                         <h1 class="display-4">Comparison: Latitude vs. X </h1>
+                        <p class = 'lead'>Click on any plot to see an in-depth analysis.</p>
                         <hr class="my-4">
-                            <a href = 'max_temperature.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_temperature_ratios.png'></a>
-                            <a href = 'humidity.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_humidity_ratios.png'></a>
-                            <a href = 'cloudiness.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_cloudiness_ratios.png'></a>
-                            <a href = 'wind_speed.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_wind_speed_ratios.png'></a>
+                            <div class = 'row'>
+                                <div class = 'col-md-6'>
+                                    <h2>vs. Max Temperature</h2>
+                                </div>
+                                <div class = 'col-md-6'>
+                                    <h2>vs. Humidity</h2>
+                                </div>
+                            </div>
+                            <div class = 'row'>
+                                <div class = 'col-md-6'>
+                                    <a href = 'max_temperature.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_temperature_ratios.png'></a>
+                                </div>
+                                <div class = 'col-md-6'>
+                                    <a href = 'humidity.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_humidity_ratios.png'></a>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <div class = 'row'>
+                                <div class = 'col-md-6'>
+                                    <h2>vs. Cloudiness</h2>
+                                </div>
+                                <div class = 'col-md-6'>
+                                    <h2>vs. Wind Speed</h2>
+                                </div>
+                            </div>
+                            <div class = 'row'>
+                                <div class = 'col-md-6'>
+                                    <a href = 'cloudiness.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_cloudiness_ratios.png'></a>
+                                </div>
+                                <div class = 'col-md-6'>
+                                    <a href = 'wind_speed.html'> <img id = 'visualizations' src = '../Visualizations/latitude_vs_wind_speed_ratios.png'></a>
+                                <div>
+                            </div>
                 </div>
             </div>
             <div class = 'col-md-1'></div>
