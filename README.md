@@ -36,7 +36,7 @@ The HTML files are supplemented by a style.css file that houses the CSS properti
 ![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/comparison.png 'Screenshot of Comparison Page')
 
 ### Data Page
-![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/Data.png 'Screenshot of Data Page')
+![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/data.png 'Screenshot of Data Page')
 
-### Max Temperaturew Page
+### Max Temperature Page
 ![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/max_temperature.png 'Screenshot of Max Temperature Page')
