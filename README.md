@@ -31,3 +31,12 @@ The HTML files are supplemented by a style.css file that houses the CSS properti
 # Screenshots:
 ### Index Page
 ![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/index.png 'Screenshot of Index Page')
+
+### Comparison Page
+![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/comparison.png 'Screenshot of Comparison Page')
+
+### Data Page
+![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/Data.png 'Screenshot of Data Page')
+
+### Max Temperaturew Page
+![alt text](https://github.com/blhawkins/11.web-design-challenge/blob/master/Screenshots/max_temperature.png 'Screenshot of Max Temperature Page')
