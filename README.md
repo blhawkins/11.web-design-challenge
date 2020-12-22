@@ -20,7 +20,7 @@ University of Kansas Data Analytics Bootcamp Homework Assignment 11
     Pandas
     Matplotlib
 # Description:
-The purpose of this repository is to store and host an HTML website displaying results obtained in a previous project, [WeatherPy.ipynb] (https://github.com/blhawkins/11.web-design-challenge/blob/master/Resources/WeatherPy.ipynb). The website is composed of seven webpages, cooresponding to the seven HTML files located in the Webpages folder.
+The purpose of this repository is to store and host an HTML website displaying results obtained in a previous project, [WeatherPy.ipynb](https://github.com/blhawkins/11.web-design-challenge/blob/master/Resources/WeatherPy.ipynb). The website is composed of seven webpages, cooresponding to the seven HTML files located in the Webpages folder.
 
 1. The [Index](https://blhawkins.github.io/11.web-design-challenge/Webpages/index.html) page serves as the homepage of the site and provides a summary of the project.
 2. The [Comparison](https://blhawkins.github.io/11.web-design-challenge/Webpages/comparison.html) page displays all of the visualizations to allow users to visually compare them.
