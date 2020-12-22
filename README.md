@@ -18,6 +18,7 @@ University of Kansas Data Analytics Bootcamp Homework Assignment 11
     GitHub Pages
     Jupyter Notebook
     Pandas
+    Matplotlib
 # Description:
 The purpose of this repository is to store and host an HTML website displaying results obtained in a [previous project](https://github.com/blhawkins/6.pythonAPIchallenge/blob/master/WeatherPy.ipynb). The website is composed of seven webpages, cooresponding to the seven HTML files located in the Webpages folder.
 
