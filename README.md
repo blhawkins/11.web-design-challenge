@@ -27,7 +27,7 @@ The purpose of this repository is to store and host an HTML website displaying r
 3. The [Data](https://blhawkins.github.io/11.web-design-challenge/Webpages/data.html) page provides a table of all of the data used in the analysis.
 4. Each of the [Max Temperature](https://blhawkins.github.io/11.web-design-challenge/Webpages/max_temperature.html), [Humidity](https://blhawkins.github.io/11.web-design-challenge/Webpages/humidity.html), [Cloudiness](https://blhawkins.github.io/11.web-design-challenge/Webpages/cloudiness.html) and [Wind Speed](https://blhawkins.github.io/11.web-design-challenge/Webpages/wind_speed.html) pages displays the cooresponding visualization, in addition to providing analytical conclusions drawn from the visualization.
 
-The HTML files are supplemented by a style.css file that houses the CSS properties used in the HTML files. Additionally, a convert.ipynb file found in the Resources folder was used to convert a CSV file into the HTML table that is displayed in on the Data page of the website.
+The HTML files are supplemented by a style.css file that houses the CSS properties used in the HTML files. Additionally, a [convert.ipynb](https://github.com/blhawkins/11.web-design-challenge/blob/master/Resources/convert.ipynb) file found in the Resources folder was used to convert a CSV file into the HTML table that is displayed in on the Data page of the website.
 
 # Screenshots:
 ### Index Page
