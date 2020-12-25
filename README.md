@@ -11,6 +11,7 @@
     cloudiness.html
     wind_speed.html
     style.css
+    weatherpy.ipynb
     convert.ipynb
 # Tools Used:
     HTML
