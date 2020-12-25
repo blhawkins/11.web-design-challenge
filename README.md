@@ -28,7 +28,7 @@ The purpose of this repository is to store and host an HTML website displaying r
 3. The [Data](https://blhawkins.github.io/Latitude/Webpages/data.html) page provides a table of all of the data used in the analysis.
 4. Each of the [Max Temperature](https://blhawkins.github.io/Latitude/Webpages/max_temperature.html), [Humidity](https://blhawkins.github.io/Latitude/Webpages/humidity.html), [Cloudiness](https://blhawkins.github.io/Latitude/Webpages/cloudiness.html) and [Wind Speed](https://blhawkins.github.io/Latitude/Webpages/wind_speed.html) pages displays the cooresponding visualization, in addition to providing analytical conclusions drawn from the visualization.
 
-The HTML files are supplemented by a style.css file that houses the CSS properties used in the HTML files. Additionally, a [convert.ipynb](https://github.com/blhawkins/Latitude/blob/master/Resources/convert.ipynb) file found in the Resources folder was used to convert a CSV file into the HTML table that is displayed in on the Data page of the website.
+The HTML files are supplemented by a [style.css](https://github.com/blhawkins/Latitude/blob/master/Webpages/style.css) file that houses the CSS properties used in the HTML files. Additionally, a [convert.ipynb](https://github.com/blhawkins/Latitude/blob/master/Resources/convert.ipynb) file found in the Resources folder was used to convert a CSV file into the HTML table that is displayed in on the Data page of the website.
 
 # Screenshots:
 ### Index Page
