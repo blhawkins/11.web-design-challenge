@@ -1,5 +1,6 @@
 # Latitude
-University of Kansas Data Analytics Bootcamp Homework Assignment 11
+### Exploring the Effects of Latitude on Climate 🌧 ☀️
+
 
 # Main Contents:
     index.html
